@@ -112,7 +112,7 @@ public class ModelValidator implements org.compiere.model.ModelValidator {
 		}
 		return null;
 	} // modelChange
-
+ 
 	@Override
 	public String docValidate(PO po, int timing) {
 		if(timing == TIMING_AFTER_COMPLETE){
